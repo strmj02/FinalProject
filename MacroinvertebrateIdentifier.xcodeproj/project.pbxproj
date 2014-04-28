@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C1F1798190D7FAD008926DF /* Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1F1797190D7FAD008926DF /* Stream.m */; };
+		2C538735190DEDD500A9A40D /* MacroEditCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C538734190DEDD500A9A40D /* MacroEditCell.m */; };
+		2C538737190DEDE800A9A40D /* MacroEditCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C538736190DEDE800A9A40D /* MacroEditCell.xib */; };
+		2C582DF218F309A60024E268 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C582DF118F309A60024E268 /* UIKit.framework */; };
+		2C582DF418F309A60024E268 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C582DF318F309A60024E268 /* Foundation.framework */; };
+		2C582DF618F309A60024E268 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C582DF518F309A60024E268 /* CoreGraphics.framework */; };
+		2C582DFC18F309A60024E268 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C582DFA18F309A60024E268 /* InfoPlist.strings */; };
+		2C582DFE18F309A60024E268 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C582DFD18F309A60024E268 /* main.m */; };
+		2C582E0218F309A60024E268 /* MacroIndentificationAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C582E0118F309A60024E268 /* MacroIndentificationAppDelegate.m */; };
+		2C582E0518F309A70024E268 /* MacroIndentificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C582E0418F309A70024E268 /* MacroIndentificationViewController.m */; };
+		2C582E0818F309A70024E268 /* MacroIndentificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C582E0618F309A70024E268 /* MacroIndentificationViewController.xib */; };
+		2C582E1118F309EA0024E268 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C582E0F18F309EA0024E268 /* MenuViewController.m */; };
+		2C582E1218F309EA0024E268 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C582E1018F309EA0024E268 /* MenuViewController.xib */; };
+		2C582E1918F30C300024E268 /* MacroDictionaryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C582E1818F30C300024E268 /* MacroDictionaryController.m */; };
+		2C58CA0C1901BE7B00DB4C63 /* scud.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C58CA0B1901BE7B00DB4C63 /* scud.jpg */; };
+		2C58CA0F1901BE7E00DB4C63 /* isopod.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C58CA0E1901BE7E00DB4C63 /* isopod.jpg */; };
+		2C58CA111901BE8200DB4C63 /* crayfish.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C58CA101901BE8200DB4C63 /* crayfish.jpg */; };
+		2C58CA131901BE8500DB4C63 /* mite.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C58CA121901BE8500DB4C63 /* mite.jpg */; };
+		2C58CA151901C1ED00DB4C63 /* waterpenny.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C58CA141901C1ED00DB4C63 /* waterpenny.jpg */; };
+		2C58CA171901C32100DB4C63 /* damselfly.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C58CA161901C32100DB4C63 /* damselfly.jpg */; };
+		2C58CA191901C32400DB4C63 /* caddisfly.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C58CA181901C32400DB4C63 /* caddisfly.jpg */; };
+		2C58CA1B1901C60F00DB4C63 /* mayflygill.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C58CA1A1901C60F00DB4C63 /* mayflygill.jpg */; };
+		2C58CA1D1901C6E500DB4C63 /* rifflebeetle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C58CA1C1901C6E500DB4C63 /* rifflebeetle.jpg */; };
+		2C58CA1F1901C77C00DB4C63 /* stonefly.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C58CA1E1901C77C00DB4C63 /* stonefly.jpg */; };
+		2C58CA211901C8EB00DB4C63 /* dragonfly.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C58CA201901C8EB00DB4C63 /* dragonfly.jpg */; };
+		2C58CA231901CDE500DB4C63 /* aquaticworm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C58CA221901CDE500DB4C63 /* aquaticworm.jpg */; };
+		2C58CA251901CE5300DB4C63 /* clam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C58CA241901CE5300DB4C63 /* clam.jpg */; };
+		2C58CA271901CFEA00DB4C63 /* prolegs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C58CA261901CFEA00DB4C63 /* prolegs.jpg */; };
+		2C58CA291901D06F00DB4C63 /* flatworm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C58CA281901D06F00DB4C63 /* flatworm.jpg */; };
+		2C58CA2B1901D20600DB4C63 /* cranefly.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C58CA2A1901D20600DB4C63 /* cranefly.jpg */; };
+		2C58CA2D1901D54100DB4C63 /* leech.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C58CA2C1901D54100DB4C63 /* leech.jpg */; };
+		2C58CA2F1901D54F00DB4C63 /* blackfly.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C58CA2E1901D54F00DB4C63 /* blackfly.jpg */; };
+		2C699F5719005DD50047E29F /* midge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C699F5619005DD50047E29F /* midge.jpg */; };
+		2C6F790A18FF0E4000F71AEA /* MacroKeyStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F790918FF0E4000F71AEA /* MacroKeyStrings.m */; };
+		2C6F790E18FF0F1900F71AEA /* MacroDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F790D18FF0F1800F71AEA /* MacroDictionary.m */; };
+		2C6F791018FF12C600F71AEA /* planorbid.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2C6F790F18FF12C600F71AEA /* planorbid.jpeg */; };
+		2CB37BDC190038CB0084BC04 /* mayfly.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2CB37BDB190038CB0084BC04 /* mayfly.jpeg */; };
+		2CF0E9B518F37BFE0001F97D /* MacroDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF0E9B318F37BFE0001F97D /* MacroDetailViewController.m */; };
+		2CF0E9B618F37BFE0001F97D /* MacroDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CF0E9B418F37BFE0001F97D /* MacroDetailViewController.xib */; };
+		2CF0E9B918F37D620001F97D /* Macroinvertebrate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF0E9B818F37D620001F97D /* Macroinvertebrate.m */; };
+		2CF0E9BD18F389C70001F97D /* MacroIDKeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF0E9BB18F389C70001F97D /* MacroIDKeyViewController.m */; };
+		2CF0E9BE18F389C70001F97D /* MacroIDKeyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CF0E9BC18F389C70001F97D /* MacroIDKeyViewController.xib */; };
+		2CF0E9C618F38F620001F97D /* DetailStreamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF0E9C418F38F620001F97D /* DetailStreamViewController.m */; };
+		2CF0E9C718F38F620001F97D /* DetailStreamViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CF0E9C518F38F620001F97D /* DetailStreamViewController.xib */; };
+		2CF0E9CA18F395800001F97D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CF0E9C918F395800001F97D /* MapKit.framework */; };
+		2CF0E9CD18F396D30001F97D /* StreamMacroListControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF0E9CC18F396D30001F97D /* StreamMacroListControllerViewController.m */; };
+		2CF56623190E9F4E005069AC /* StreamPre.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF56622190E9F4E005069AC /* StreamPre.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C1F1796190D7FAD008926DF /* Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stream.h; sourceTree = "<group>"; };
+		2C1F1797190D7FAD008926DF /* Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stream.m; sourceTree = "<group>"; };
+		2C538733190DEDD500A9A40D /* MacroEditCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacroEditCell.h; path = ../MacroEditCell.h; sourceTree = "<group>"; };
+		2C538734190DEDD500A9A40D /* MacroEditCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MacroEditCell.m; path = ../MacroEditCell.m; sourceTree = "<group>"; };
+		2C538736190DEDE800A9A40D /* MacroEditCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MacroEditCell.xib; path = ../MacroEditCell.xib; sourceTree = "<group>"; };
+		2C582DED18F309A60024E268 /* MacroinvertebrateIdentifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacroinvertebrateIdentifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C582DF118F309A60024E268 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2C582DF318F309A60024E268 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2C582DF518F309A60024E268 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2C582DF918F309A60024E268 /* MacroinvertebrateIdentifier-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MacroinvertebrateIdentifier-Info.plist"; sourceTree = "<group>"; };
+		2C582DFB18F309A60024E268 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2C582DFD18F309A60024E268 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C582DFF18F309A60024E268 /* MacroinvertebrateIdentifier-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MacroinvertebrateIdentifier-Prefix.pch"; sourceTree = "<group>"; };
+		2C582E0018F309A60024E268 /* MacroIndentificationAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroIndentificationAppDelegate.h; sourceTree = "<group>"; };
+		2C582E0118F309A60024E268 /* MacroIndentificationAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacroIndentificationAppDelegate.m; sourceTree = "<group>"; };
+		2C582E0318F309A70024E268 /* MacroIndentificationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroIndentificationViewController.h; sourceTree = "<group>"; };
+		2C582E0418F309A70024E268 /* MacroIndentificationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacroIndentificationViewController.m; sourceTree = "<group>"; };
+		2C582E0718F309A70024E268 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MacroIndentificationViewController.xib; sourceTree = "<group>"; };
+		2C582E0E18F309EA0024E268 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		2C582E0F18F309EA0024E268 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		2C582E1018F309EA0024E268 /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+		2C582E1718F30C300024E268 /* MacroDictionaryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroDictionaryController.h; sourceTree = "<group>"; };
+		2C582E1818F30C300024E268 /* MacroDictionaryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MacroDictionaryController.m; sourceTree = "<group>"; };
+		2C58CA0B1901BE7B00DB4C63 /* scud.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scud.jpg; sourceTree = "<group>"; };
+		2C58CA0E1901BE7E00DB4C63 /* isopod.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = isopod.jpg; sourceTree = "<group>"; };
+		2C58CA101901BE8200DB4C63 /* crayfish.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = crayfish.jpg; sourceTree = "<group>"; };
+		2C58CA121901BE8500DB4C63 /* mite.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mite.jpg; sourceTree = "<group>"; };
+		2C58CA141901C1ED00DB4C63 /* waterpenny.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = waterpenny.jpg; sourceTree = "<group>"; };
+		2C58CA161901C32100DB4C63 /* damselfly.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = damselfly.jpg; sourceTree = "<group>"; };
+		2C58CA181901C32400DB4C63 /* caddisfly.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = caddisfly.jpg; sourceTree = "<group>"; };
+		2C58CA1A1901C60F00DB4C63 /* mayflygill.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mayflygill.jpg; sourceTree = "<group>"; };
+		2C58CA1C1901C6E500DB4C63 /* rifflebeetle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rifflebeetle.jpg; sourceTree = "<group>"; };
+		2C58CA1E1901C77C00DB4C63 /* stonefly.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stonefly.jpg; sourceTree = "<group>"; };
+		2C58CA201901C8EB00DB4C63 /* dragonfly.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dragonfly.jpg; sourceTree = "<group>"; };
+		2C58CA221901CDE500DB4C63 /* aquaticworm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aquaticworm.jpg; sourceTree = "<group>"; };
+		2C58CA241901CE5300DB4C63 /* clam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clam.jpg; sourceTree = "<group>"; };
+		2C58CA261901CFEA00DB4C63 /* prolegs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = prolegs.jpg; sourceTree = "<group>"; };
+		2C58CA281901D06F00DB4C63 /* flatworm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flatworm.jpg; sourceTree = "<group>"; };
+		2C58CA2A1901D20600DB4C63 /* cranefly.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cranefly.jpg; sourceTree = "<group>"; };
+		2C58CA2C1901D54100DB4C63 /* leech.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = leech.jpg; sourceTree = "<group>"; };
+		2C58CA2E1901D54F00DB4C63 /* blackfly.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blackfly.jpg; sourceTree = "<group>"; };
+		2C699F5619005DD50047E29F /* midge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = midge.jpg; sourceTree = "<group>"; };
+		2C6F790818FF0E4000F71AEA /* MacroKeyStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroKeyStrings.h; sourceTree = "<group>"; };
+		2C6F790918FF0E4000F71AEA /* MacroKeyStrings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MacroKeyStrings.m; sourceTree = "<group>"; };
+		2C6F790C18FF0F1800F71AEA /* MacroDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroDictionary.h; sourceTree = "<group>"; };
+		2C6F790D18FF0F1800F71AEA /* MacroDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MacroDictionary.m; sourceTree = "<group>"; };
+		2C6F790F18FF12C600F71AEA /* planorbid.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = planorbid.jpeg; sourceTree = "<group>"; };
+		2CB37BDB190038CB0084BC04 /* mayfly.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mayfly.jpeg; sourceTree = "<group>"; };
+		2CF0E9B218F37BFE0001F97D /* MacroDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacroDetailViewController.h; path = ../MacroDetailViewController.h; sourceTree = "<group>"; };
+		2CF0E9B318F37BFE0001F97D /* MacroDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MacroDetailViewController.m; path = ../MacroDetailViewController.m; sourceTree = "<group>"; };
+		2CF0E9B418F37BFE0001F97D /* MacroDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MacroDetailViewController.xib; path = ../MacroDetailViewController.xib; sourceTree = "<group>"; };
+		2CF0E9B718F37D620001F97D /* Macroinvertebrate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macroinvertebrate.h; sourceTree = "<group>"; };
+		2CF0E9B818F37D620001F97D /* Macroinvertebrate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Macroinvertebrate.m; sourceTree = "<group>"; };
+		2CF0E9BA18F389C70001F97D /* MacroIDKeyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroIDKeyViewController.h; sourceTree = "<group>"; };
+		2CF0E9BB18F389C70001F97D /* MacroIDKeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MacroIDKeyViewController.m; sourceTree = "<group>"; };
+		2CF0E9BC18F389C70001F97D /* MacroIDKeyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MacroIDKeyViewController.xib; sourceTree = "<group>"; };
+		2CF0E9C318F38F620001F97D /* DetailStreamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailStreamViewController.h; sourceTree = "<group>"; };
+		2CF0E9C418F38F620001F97D /* DetailStreamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailStreamViewController.m; sourceTree = "<group>"; };
+		2CF0E9C518F38F620001F97D /* DetailStreamViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailStreamViewController.xib; sourceTree = "<group>"; };
+		2CF0E9C918F395800001F97D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2CF0E9CB18F396D20001F97D /* StreamMacroListControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamMacroListControllerViewController.h; sourceTree = "<group>"; };
+		2CF0E9CC18F396D30001F97D /* StreamMacroListControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreamMacroListControllerViewController.m; sourceTree = "<group>"; };
+		2CF56621190E9F4E005069AC /* StreamPre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamPre.h; sourceTree = "<group>"; };
+		2CF56622190E9F4E005069AC /* StreamPre.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreamPre.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C582DEA18F309A60024E268 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CF0E9CA18F395800001F97D /* MapKit.framework in Frameworks */,
+				2C582DF218F309A60024E268 /* UIKit.framework in Frameworks */,
+				2C582DF418F309A60024E268 /* Foundation.framework in Frameworks */,
+				2C582DF618F309A60024E268 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C582DE218F309A60024E268 = {
+			isa = PBXGroup;
+			children = (
+				2CF0E9C918F395800001F97D /* MapKit.framework */,
+				2C582DF718F309A60024E268 /* MacroinvertebrateIdentifier */,
+				2C582DF018F309A60024E268 /* Frameworks */,
+				2C582DEE18F309A60024E268 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C582DEE18F309A60024E268 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C582DED18F309A60024E268 /* MacroinvertebrateIdentifier.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C582DF018F309A60024E268 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C582DF118F309A60024E268 /* UIKit.framework */,
+				2C582DF318F309A60024E268 /* Foundation.framework */,
+				2C582DF518F309A60024E268 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C582DF718F309A60024E268 /* MacroinvertebrateIdentifier */ = {
+			isa = PBXGroup;
+			children = (
+				2C538736190DEDE800A9A40D /* MacroEditCell.xib */,
+				2C538733190DEDD500A9A40D /* MacroEditCell.h */,
+				2C538734190DEDD500A9A40D /* MacroEditCell.m */,
+				2CF0E9BA18F389C70001F97D /* MacroIDKeyViewController.h */,
+				2CF0E9BB18F389C70001F97D /* MacroIDKeyViewController.m */,
+				2CF0E9BC18F389C70001F97D /* MacroIDKeyViewController.xib */,
+				2C6F790818FF0E4000F71AEA /* MacroKeyStrings.h */,
+				2C6F790918FF0E4000F71AEA /* MacroKeyStrings.m */,
+				2C6F790C18FF0F1800F71AEA /* MacroDictionary.h */,
+				2C6F790D18FF0F1800F71AEA /* MacroDictionary.m */,
+				2CF0E9B218F37BFE0001F97D /* MacroDetailViewController.h */,
+				2CF0E9B318F37BFE0001F97D /* MacroDetailViewController.m */,
+				2CF0E9B418F37BFE0001F97D /* MacroDetailViewController.xib */,
+				2CF0E9B718F37D620001F97D /* Macroinvertebrate.h */,
+				2CF0E9B818F37D620001F97D /* Macroinvertebrate.m */,
+				2C582E0E18F309EA0024E268 /* MenuViewController.h */,
+				2C582E0F18F309EA0024E268 /* MenuViewController.m */,
+				2C582E1018F309EA0024E268 /* MenuViewController.xib */,
+				2CF0E9C318F38F620001F97D /* DetailStreamViewController.h */,
+				2CF0E9C418F38F620001F97D /* DetailStreamViewController.m */,
+				2CF0E9C518F38F620001F97D /* DetailStreamViewController.xib */,
+				2C1F1796190D7FAD008926DF /* Stream.h */,
+				2C1F1797190D7FAD008926DF /* Stream.m */,
+				2CF56621190E9F4E005069AC /* StreamPre.h */,
+				2CF56622190E9F4E005069AC /* StreamPre.m */,
+				2C582E1718F30C300024E268 /* MacroDictionaryController.h */,
+				2C582E1818F30C300024E268 /* MacroDictionaryController.m */,
+				2C582E0018F309A60024E268 /* MacroIndentificationAppDelegate.h */,
+				2C582E0118F309A60024E268 /* MacroIndentificationAppDelegate.m */,
+				2C582E0318F309A70024E268 /* MacroIndentificationViewController.h */,
+				2C582E0418F309A70024E268 /* MacroIndentificationViewController.m */,
+				2C582E0618F309A70024E268 /* MacroIndentificationViewController.xib */,
+				2CF0E9CB18F396D20001F97D /* StreamMacroListControllerViewController.h */,
+				2CF0E9CC18F396D30001F97D /* StreamMacroListControllerViewController.m */,
+				2C582DF818F309A60024E268 /* Supporting Files */,
+			);
+			path = MacroinvertebrateIdentifier;
+			sourceTree = "<group>";
+		};
+		2C582DF818F309A60024E268 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C58CA2E1901D54F00DB4C63 /* blackfly.jpg */,
+				2C58CA2C1901D54100DB4C63 /* leech.jpg */,
+				2C58CA2A1901D20600DB4C63 /* cranefly.jpg */,
+				2C58CA281901D06F00DB4C63 /* flatworm.jpg */,
+				2C58CA261901CFEA00DB4C63 /* prolegs.jpg */,
+				2C58CA241901CE5300DB4C63 /* clam.jpg */,
+				2C58CA221901CDE500DB4C63 /* aquaticworm.jpg */,
+				2C58CA201901C8EB00DB4C63 /* dragonfly.jpg */,
+				2C58CA1E1901C77C00DB4C63 /* stonefly.jpg */,
+				2C58CA1C1901C6E500DB4C63 /* rifflebeetle.jpg */,
+				2C58CA1A1901C60F00DB4C63 /* mayflygill.jpg */,
+				2C58CA181901C32400DB4C63 /* caddisfly.jpg */,
+				2C58CA161901C32100DB4C63 /* damselfly.jpg */,
+				2C58CA141901C1ED00DB4C63 /* waterpenny.jpg */,
+				2C58CA121901BE8500DB4C63 /* mite.jpg */,
+				2C58CA101901BE8200DB4C63 /* crayfish.jpg */,
+				2C58CA0E1901BE7E00DB4C63 /* isopod.jpg */,
+				2C58CA0B1901BE7B00DB4C63 /* scud.jpg */,
+				2C699F5619005DD50047E29F /* midge.jpg */,
+				2CB37BDB190038CB0084BC04 /* mayfly.jpeg */,
+				2C6F790F18FF12C600F71AEA /* planorbid.jpeg */,
+				2C582DF918F309A60024E268 /* MacroinvertebrateIdentifier-Info.plist */,
+				2C582DFA18F309A60024E268 /* InfoPlist.strings */,
+				2C582DFD18F309A60024E268 /* main.m */,
+				2C582DFF18F309A60024E268 /* MacroinvertebrateIdentifier-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C582DEC18F309A60024E268 /* MacroinvertebrateIdentifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C582E0B18F309A70024E268 /* Build configuration list for PBXNativeTarget "MacroinvertebrateIdentifier" */;
+			buildPhases = (
+				2C582DE918F309A60024E268 /* Sources */,
+				2C582DEA18F309A60024E268 /* Frameworks */,
+				2C582DEB18F309A60024E268 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacroinvertebrateIdentifier;
+			productName = MacroinvertebrateIdentifier;
+			productReference = 2C582DED18F309A60024E268 /* MacroinvertebrateIdentifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C582DE418F309A60024E268 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MacroIndentification;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Rachel Johnson";
+			};
+			buildConfigurationList = 2C582DE718F309A60024E268 /* Build configuration list for PBXProject "MacroinvertebrateIdentifier" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2C582DE218F309A60024E268;
+			productRefGroup = 2C582DEE18F309A60024E268 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C582DEC18F309A60024E268 /* MacroinvertebrateIdentifier */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C582DEB18F309A60024E268 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C582DFC18F309A60024E268 /* InfoPlist.strings in Resources */,
+				2C582E0818F309A70024E268 /* MacroIndentificationViewController.xib in Resources */,
+				2C582E1218F309EA0024E268 /* MenuViewController.xib in Resources */,
+				2CF0E9B618F37BFE0001F97D /* MacroDetailViewController.xib in Resources */,
+				2CF0E9BE18F389C70001F97D /* MacroIDKeyViewController.xib in Resources */,
+				2CF0E9C718F38F620001F97D /* DetailStreamViewController.xib in Resources */,
+				2C6F791018FF12C600F71AEA /* planorbid.jpeg in Resources */,
+				2CB37BDC190038CB0084BC04 /* mayfly.jpeg in Resources */,
+				2C699F5719005DD50047E29F /* midge.jpg in Resources */,
+				2C58CA0C1901BE7B00DB4C63 /* scud.jpg in Resources */,
+				2C58CA0F1901BE7E00DB4C63 /* isopod.jpg in Resources */,
+				2C58CA111901BE8200DB4C63 /* crayfish.jpg in Resources */,
+				2C58CA131901BE8500DB4C63 /* mite.jpg in Resources */,
+				2C58CA151901C1ED00DB4C63 /* waterpenny.jpg in Resources */,
+				2C58CA171901C32100DB4C63 /* damselfly.jpg in Resources */,
+				2C58CA191901C32400DB4C63 /* caddisfly.jpg in Resources */,
+				2C58CA1B1901C60F00DB4C63 /* mayflygill.jpg in Resources */,
+				2C58CA1D1901C6E500DB4C63 /* rifflebeetle.jpg in Resources */,
+				2C58CA1F1901C77C00DB4C63 /* stonefly.jpg in Resources */,
+				2C58CA211901C8EB00DB4C63 /* dragonfly.jpg in Resources */,
+				2C58CA231901CDE500DB4C63 /* aquaticworm.jpg in Resources */,
+				2C58CA251901CE5300DB4C63 /* clam.jpg in Resources */,
+				2C58CA271901CFEA00DB4C63 /* prolegs.jpg in Resources */,
+				2C58CA291901D06F00DB4C63 /* flatworm.jpg in Resources */,
+				2C58CA2B1901D20600DB4C63 /* cranefly.jpg in Resources */,
+				2C58CA2D1901D54100DB4C63 /* leech.jpg in Resources */,
+				2C58CA2F1901D54F00DB4C63 /* blackfly.jpg in Resources */,
+				2C538737190DEDE800A9A40D /* MacroEditCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C582DE918F309A60024E268 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C582DFE18F309A60024E268 /* main.m in Sources */,
+				2C582E0218F309A60024E268 /* MacroIndentificationAppDelegate.m in Sources */,
+				2C582E0518F309A70024E268 /* MacroIndentificationViewController.m in Sources */,
+				2C582E1118F309EA0024E268 /* MenuViewController.m in Sources */,
+				2C582E1918F30C300024E268 /* MacroDictionaryController.m in Sources */,
+				2CF0E9B518F37BFE0001F97D /* MacroDetailViewController.m in Sources */,
+				2CF0E9B918F37D620001F97D /* Macroinvertebrate.m in Sources */,
+				2CF0E9BD18F389C70001F97D /* MacroIDKeyViewController.m in Sources */,
+				2CF0E9C618F38F620001F97D /* DetailStreamViewController.m in Sources */,
+				2CF0E9CD18F396D30001F97D /* StreamMacroListControllerViewController.m in Sources */,
+				2C6F790A18FF0E4000F71AEA /* MacroKeyStrings.m in Sources */,
+				2C6F790E18FF0F1900F71AEA /* MacroDictionary.m in Sources */,
+				2C1F1798190D7FAD008926DF /* Stream.m in Sources */,
+				2C538735190DEDD500A9A40D /* MacroEditCell.m in Sources */,
+				2CF56623190E9F4E005069AC /* StreamPre.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2C582DFA18F309A60024E268 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C582DFB18F309A60024E268 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2C582E0618F309A70024E268 /* MacroIndentificationViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C582E0718F309A70024E268 /* en */,
+			);
+			name = MacroIndentificationViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C582E0918F309A70024E268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2C582E0A18F309A70024E268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C582E0C18F309A70024E268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacroinvertebrateIdentifier/MacroinvertebrateIdentifier-Prefix.pch";
+				INFOPLIST_FILE = "MacroinvertebrateIdentifier/MacroinvertebrateIdentifier-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2C582E0D18F309A70024E268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacroinvertebrateIdentifier/MacroinvertebrateIdentifier-Prefix.pch";
+				INFOPLIST_FILE = "MacroinvertebrateIdentifier/MacroinvertebrateIdentifier-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C582DE718F309A60024E268 /* Build configuration list for PBXProject "MacroinvertebrateIdentifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C582E0918F309A70024E268 /* Debug */,
+				2C582E0A18F309A70024E268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C582E0B18F309A70024E268 /* Build configuration list for PBXNativeTarget "MacroinvertebrateIdentifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C582E0C18F309A70024E268 /* Debug */,
+				2C582E0D18F309A70024E268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C582DE418F309A60024E268 /* Project object */;
+}
